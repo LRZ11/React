@@ -1,0 +1,40 @@
+.div{
+    /* background-color: gray;
+    height: 100vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    align-content: center;
+    margin: 0px;
+    display: flex; */
+    
+    display: flex;
+    margin: 0px auto;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.alert{
+    width: 400px;
+    text-align: center;
+}
+.card{
+    height: 400px;
+    width: 100%;
+    max-width: 400px;
+    min-width: 400px;
+}
+.form{
+    width: 100%;
+}
+.input{
+    width: 100%;
+}
+.button{
+    width: 100%;
+}
+.errmessage{
+    text-align: center;
+    color: red;
+}
