@@ -1,0 +1,10 @@
+body>div{
+    height: 100%;
+}
+.lightbackground{
+    background-color: #E8E8E8;
+}
+
+.darkbackground{
+    background-color: #111827;
+}
