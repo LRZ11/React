@@ -1,40 +1,93 @@
-.div{
-    /* background-color: gray;
-    height: 100vh;
-    padding-left: 50px;
-    padding-right: 50px;
-    align-items: center;
-    align-content: center;
-    margin: 0px;
-    display: flex; */
-    
+
+.div {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
     display: flex;
-    margin: 0px auto;
-    padding-top: 50px;
-    justify-content: center;
     align-items: center;
-    height: auto;
+    justify-content: center;
+    background-image: linear-gradient(163deg, #00642f 0%, #13034b 100%);
 }
-.alert{
-    width: 400px;
-    text-align: center;
+.alert {
+  width: 400px;
+  text-align: center;
 }
-.card{
-    height: 400px;
-    width: 100%;
-    max-width: 400px;
-    min-width: 400px;
+.card {
+  height: 400px;
+  width: 100%;
+  max-width: 350px;
+  min-width: 350px;
+  color: rgb(53, 51, 51);
+  text-align: center;
+
+  border-width: 1px;
+  border-color: rgba(219, 234, 254, 1);
+  border-radius: 1rem;
+  /* background-color: #5b5c5e; */
+  background-image: url("../../../public/card2.jpg");
+  background-repeat: no-repeat;
+  background-size:auto;
+
+  padding: 1rem;
 }
-.form{
-    width: 100%;
+
+/* .card {
+    max-width: 320px;
+    border-width: 1px;
+    border-color: rgba(219, 234, 254, 1);
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 1rem;
+  } */
+
+.form {
+  width: 100%;
 }
-.input{
-    width: 100%;
+
+.input-field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  border-radius: 25px;
+  padding: 0.6em;
+  border: none;
+  outline: none;
+  box-shadow: inset 2px 5px 10px rgb(39, 38, 38);
 }
-.button{
-    width: 100%;
+
+.input {
+  /* width: 100%;
+    background-color: #5B5C5E;
+    color: white; 
+  background: none;
+  border-radius: 25px;*/
+  font-size: 14px;
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: rgb(31, 30, 30);
 }
-.errmessage{
-    text-align: center;
-    color: red;
+.input::placeholder {
+  color: #807d7d;
 }
+
+.input-icon {
+  height: 1.3em;
+  width: 1.3em;
+  fill: #474646;
+}
+
+.button {
+  width: 100%;
+  font-size: large;
+  font-weight: 500;
+}
+.errmessage {
+  text-align: center;
+  color: red;
+}
+
